@@ -1,5 +1,7 @@
 # Simple C++ project with io-tests
 
+[![Build Status](https://travis-ci.org/tcibinan/simple-cpp-project.svg?branch=master)](https://travis-ci.org/tcibinan/simple-cpp-project)
+
 ## Configuration
 
 Source structure should be the following. All `.cpp` scripts should be located under `src/main/cpp` directory.
