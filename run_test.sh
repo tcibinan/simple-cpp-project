@@ -3,9 +3,11 @@
 test_group=$1
 project_path=$PWD
 source=$project_path/src/main/cpp/$test_group.cpp
-executable=$project_path/build/cpp/$test_group.out
+executables_dir=$project_path/build/cpp
+executable=$executables_dir/$test_group.out
 resources=$project_path/src/test/resources
 
+mkdir -p $executables_dir
 g++ $source -o $executable
 
 test_cases=`cd $resources/$test_group && ls`
