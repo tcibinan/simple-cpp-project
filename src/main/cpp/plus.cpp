@@ -1,8 +1,9 @@
 #include <iostream>
+#include "plus.h"
+
 using namespace std;
 
-int main()
-{
+int plus_task() {
     int a, b, c;
 
     cin >> a >> b;

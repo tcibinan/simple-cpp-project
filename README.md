@@ -12,7 +12,10 @@ Each test is basically a directory with two txt files `input.txt`  and `output.t
 src/
     main/
         cpp/
+            main.cpp
+            script1.h
             script1.cpp
+            script2.h
             script2.cpp
     test/
         resources/

@@ -1,8 +1,9 @@
 #include <iostream>
+#include "minus.h"
+
 using namespace std;
 
-int main()
-{
+int minus_task() {
     int a, b, c;
 
     cin >> a >> b;
