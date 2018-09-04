@@ -3,15 +3,14 @@
 
 using namespace std;
 
-    int minus_task() {
-        int a, b, c;
+int minus_task() {
+    int a, b, c;
 
-        cin >> a >> b;
+    cin >> a >> b;
 
-        c = a - b;
+    c = a - b;
 
-        cout << c;
+    cout << c;
 
-        return 0;
-    }
-
+    return 0;
+}

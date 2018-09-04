@@ -1,5 +1,20 @@
 #!/usr/bin/env bash
 
+project_path=$PWD
+src_dir=$project_path/src/main/cpp
+output_dir=$project_path/build/cpp
+executable=$output_dir/test
+
+echo "Compiling everything under $src_dir"
+mkdir -p $output_dir
+`cd $src_dir && g++ * -o $executable`
+
+if [ $? != 0 ]
+then
+    exit 1
+fi
+
+echo
 echo 'Tests:'
 
 test_groups=$@

@@ -2,15 +2,15 @@
 #include "plus.h"
 
 using namespace std;
-    int plus_task() {
-        int a, b, c;
 
-        cin >> a >> b;
+int plus_task() {
+    int a, b, c;
 
-        c = a + b;
+    cin >> a >> b;
 
-        cout << c;
+    c = a + b;
 
-        return 0;
-    }
+    cout << c;
 
+    return 0;
+}
